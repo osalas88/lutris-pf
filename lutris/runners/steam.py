@@ -297,11 +297,21 @@ class steam(Runner):
             "env": self.get_env(),
         }
 
+<<<<<<< HEAD
     def remove_game_data(self, appid=None, **kwargs):
+=======
+    def stop(self):
+        if self.runner_config.get("quit_steam_on_exit") and not self.original_steampid:
+            shutdown()
+            return True
+        return False
+
+    def remove_game_data(self, app_id=None, **kwargs):
+>>>>>>> 07dfe590 (- Initial implementation of FlathubBanner, FlathubGame and FlathubService (lutris/services/flathub.py))
         if not self.is_installed():
             return False
         command = MonitoredCommand(
-            [self.get_executable(), "steam://uninstall/%s" % (appid or self.appid)],
+            [self.get_executable(), "steam://uninstall/%s" % (app_id or self.appid)],
             runner=self,
             env=self.get_env(),
         )

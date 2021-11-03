@@ -6,6 +6,7 @@ from lutris.services.battlenet import BattleNetService
 from lutris.services.bethesda import BethesdaService
 from lutris.services.dolphin import DolphinService
 from lutris.services.egs import EpicGamesStoreService
+from lutris.services.flathub import FlathubService
 from lutris.services.gog import GOGService
 from lutris.services.humblebundle import HumbleBundleService
 from lutris.services.itchio import ItchIoService
@@ -52,7 +53,13 @@ WIP_SERVICES = {
     "bethesda": BethesdaService,
     "itchio": ItchIoService,
     "mame": MAMEService,
+<<<<<<< HEAD
 
+=======
+    "origin": OriginService,
+    "ubisoft": UbisoftConnectService,
+    "flathub": FlathubService
+>>>>>>> 07dfe590 (- Initial implementation of FlathubBanner, FlathubGame and FlathubService (lutris/services/flathub.py))
 }
 
 if os.environ.get("LUTRIS_ENABLE_ALL_SERVICES"):
