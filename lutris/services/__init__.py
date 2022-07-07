@@ -50,9 +50,9 @@ SERVICES = get_services()
 # Those services are not yet ready to be used
 WIP_SERVICES = {
     "battlenet": BattleNetService,
-    "bethesda": BethesdaService,
     "itchio": ItchIoService,
     "mame": MAMEService,
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -60,6 +60,8 @@ WIP_SERVICES = {
     "ubisoft": UbisoftConnectService,
     "flathub": FlathubService
 >>>>>>> 07dfe590 (- Initial implementation of FlathubBanner, FlathubGame and FlathubService (lutris/services/flathub.py))
+=======
+>>>>>>> 74b1754f (Remove Bethesda module)
 }
 
 if os.environ.get("LUTRIS_ENABLE_ALL_SERVICES"):
