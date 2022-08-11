@@ -53,10 +53,13 @@ WIP_SERVICES = {
     "mame": MAMEService,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     "origin": OriginService,
     "ubisoft": UbisoftConnectService,
+=======
+>>>>>>> ed2f14e9 (Add prophylactic code for evdev failure to import)
     "flathub": FlathubService
 >>>>>>> 07dfe590 (- Initial implementation of FlathubBanner, FlathubGame and FlathubService (lutris/services/flathub.py))
 =======
