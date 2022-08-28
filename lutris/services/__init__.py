@@ -53,19 +53,7 @@ WIP_SERVICES = {
     "battlenet": BattleNetService,
     "itchio": ItchIoService,
     "mame": MAMEService,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    "origin": OriginService,
-    "ubisoft": UbisoftConnectService,
-=======
->>>>>>> ed2f14e9 (Add prophylactic code for evdev failure to import)
     "flathub": FlathubService
->>>>>>> 07dfe590 (- Initial implementation of FlathubBanner, FlathubGame and FlathubService (lutris/services/flathub.py))
-=======
->>>>>>> 74b1754f (Remove Bethesda module)
 }
 
 if os.environ.get("LUTRIS_ENABLE_ALL_SERVICES"):
