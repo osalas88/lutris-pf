@@ -10,7 +10,7 @@ class BaseApplicationWindow(Gtk.ApplicationWindow):
         Gtk.ApplicationWindow.__init__(self, icon_name="lutris", application=application)
         self.application = application
         self.set_show_menubar(False)
-
+        self.set_title("Lutris Subwindow")
         self.set_position(Gtk.WindowPosition.CENTER)
         self.connect("delete-event", self.on_destroy)
 
